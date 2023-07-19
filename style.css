@@ -1,0 +1,148 @@
+.titulo{
+width: 60.5625rem;
+color: #006D77;
+font-weight: 800;
+font-size: 2.5rem;
+}
+
+.container{
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.container > * {
+    margin-bottom: 25px;
+  }
+  
+
+.parrafo{
+    color: #E29578;
+    font-weight: 800;
+    font-size: 1.25rem;
+}
+
+.boton{
+    border: none;
+    width: 43.6875rem;
+    height: 3rem; 
+    border-radius: 0.9375rem;
+    background-color: #E29578;
+    color: #006D77;
+    font-weight: 800;
+    font-size:  1.5rem;
+    
+}
+
+.cantPregunta{
+    color: #E29578;
+    font-size: 2.5rem;
+    font-weight: 800;
+
+}
+
+.preguntas{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    border-radius: 1.875rem;
+border: 3px solid #E29578;
+width: 100%;
+height: 25rem;
+}
+
+.preg{
+    color: #006D77;
+    text-align: center;
+font-size: 1.6rem;
+font-weight: 800;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 20px;
+  }
+  
+  .item {
+    background-color: white;
+    width: 17.1875rem;
+    height: 3.6875rem;
+    /*padding: 20px;*/
+    border-radius: 1.25rem;
+    border: 1px solid #006D77;
+    font-weight: 600;
+    color: #006D77;
+  }
+
+.logo{
+padding-top: 10px;
+}
+
+#siguiente{
+    background-color: white;
+    width: 15rem;
+    height: 3rem;
+    /*padding: 20px;*/
+    border-radius: 1.25rem;
+    border: 1px solid #006D77; 
+    display: none;
+    text-align: center;
+    font-weight: 600;
+    color: #006D77;
+}
+
+.correct{
+    background: #9aeabc;
+}
+
+.incorrect{
+    background: #ff9393;
+}
+
+.item:disabled{
+    cursor: no-drop;
+    color: #222;
+}
+
+
+@media (max-width: 770px) {
+   
+   .titulo{
+    font-size: 5rem;
+   }
+
+   .logo{
+    width: 200px;
+    height: 100px;
+   }
+   
+.parrafo{
+    font-size: 2rem; 
+}
+
+.boton{
+    width: 50rem;
+    height: 5.5rem;   
+    font-size:  3rem;
+
+  
+  }
+
+  .item{
+    width: 9rem;
+    font-size: 17px;
+}
+
+#siguiente{
+    font-size: 17px;
+}
+
+.preg{
+    font-size: 1.2rem;
+}
+
+
+}
